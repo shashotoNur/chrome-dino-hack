@@ -11,5 +11,5 @@
 Runner.prototype.gameOver = Runner.prototype.oldGameOver;
 
 // 3. Get the Highest possible score
-Runner.prototype.distanceRan = (99999 * 30);
-Runner.prototype.gameOver();
+Runner.instance_.distanceRan = (99999 * 30);
+Runner.instance_.gameOver();
